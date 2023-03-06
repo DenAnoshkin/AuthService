@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AuthorizationService\\AuthorizationService.ApplicationLogic\\AuthorizationService.ApplicationLogic.csproj": {}
+  },
+  "projects": {
+    "D:\\AuthorizationService\\AuthorizationService.ApplicationLogic\\AuthorizationService.ApplicationLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AuthorizationService\\AuthorizationService.ApplicationLogic\\AuthorizationService.ApplicationLogic.csproj",
+        "projectName": "AuthorizationService.ApplicationLogic",
+        "projectPath": "D:\\AuthorizationService\\AuthorizationService.ApplicationLogic\\AuthorizationService.ApplicationLogic.csproj",
+        "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
+        "outputPath": "D:\\AuthorizationService\\AuthorizationService.ApplicationLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\AuthorizationService\\AuthorizationService.DAL\\AuthorizationService.DAL.csproj": {
+                "projectPath": "D:\\AuthorizationService\\AuthorizationService.DAL\\AuthorizationService.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AuthorizationService\\AuthorizationService.DAL\\AuthorizationService.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AuthorizationService\\AuthorizationService.DAL\\AuthorizationService.DAL.csproj",
+        "projectName": "AuthorizationService.DAL",
+        "projectPath": "D:\\AuthorizationService\\AuthorizationService.DAL\\AuthorizationService.DAL.csproj",
+        "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
+        "outputPath": "D:\\AuthorizationService\\AuthorizationService.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FSLByqmxRQoJ0c1s0lcyCJfoyOUnVPlWh7SXs4GJy+8=",
+  "Source": "AuthorizationService.API",
+  "BasePath": "_content/AuthorizationService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
